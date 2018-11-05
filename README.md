@@ -4,7 +4,7 @@ This is an Exploratory Data Analysis for [Medical Appointment no shows](https://
 
 This dataset collects information from 100k medical appointments in Brazil. I want to study the relationship between outcome variable, `noshow` with rest of the predictors to understand if there are any pattern that correlates with no-show rate.
 
-*Conclusion* This dataset reinforce the conclusion of previous research paper that `Timelapse` and `Age` variable are most important in predicting no-show rate. Interesting fact is, Brazil health care system seem to penalize those who have assess to cellphone. 
+**Conclusion** This dataset reinforce the conclusion of previous research paper that `Timelapse` and `Age` variable are most important in predicting no-show rate. Interesting fact is, Brazil health care system seem to penalize those who have assess to cellphone. 
 
 People who received sms notification tend to wait longer for see the doctor, longer time-lapse [calculated from `Appointment day - Schedule day`] are associated with higher no-show rate. Thus, even though an individual patient who received sms notification with a given timelapse day will tend to have lower probability of no-show rate than a patient who did not received sms notification with same wait, the fact that sms receivers on the whole tend to have higher wait time means that overall, sms receivers tend to have higher no show rate than non-sms receiver. 
 
