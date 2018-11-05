@@ -12,6 +12,12 @@ This is an important distinction for medical company who is trying to figure out
 
 **A sms_receiver is more likely to not show up than non-sms receiver if no information about number of wait day is available. However, that patient is more likely to show up than the same patient with same wait day but did not received sms notification**
 
+``` r
+cor(strain$timelapse, strain$sms_received)
+```
+
+    ## [1] 0.4645512
+    
 ![](noshow_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
 
